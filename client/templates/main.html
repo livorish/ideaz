@@ -1,0 +1,18 @@
+<head>
+  <title>iDeaz</title>
+</head>
+
+<body>
+  {{> navbar}}
+  <div class="container">
+    <form action="" id="idea-form">
+      <input type="text" name="text" class="form-control" placeholder="Got an Idea?">
+    </form>
+    <br>
+    {{#each ideas}}
+    {{> idea}}
+    {{/each}}
+</div>
+</body>
+
+
